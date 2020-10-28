@@ -49,6 +49,7 @@ html {
 }
 
 body {
+  position: relative;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -287,6 +288,18 @@ body {
 .btn--next {
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 2rem;
+  color: var(--color-greyish-blue);
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--color-dark-blue);
 }
 
 body {

@@ -1,4 +1,5 @@
 body {
+    position: relative;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -176,5 +177,19 @@ body {
     &--next {
         border-top-right-radius: 50%;
         border-bottom-right-radius: 50%;
+    }
+}
+
+// ATTRIBUTION
+
+.attribution {
+    position: absolute;
+    bottom: 2rem;
+    color: var(--color-greyish-blue);
+    font-size: 11px;
+    text-align: center;
+
+    a {
+        color: var(--color-dark-blue);
     }
 }
