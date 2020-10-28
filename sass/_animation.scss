@@ -1,0 +1,13 @@
+@keyframes floatAround {
+    0% {
+		transform: translate(0) rotate(-.5deg);
+    }
+    
+	50% {
+		transform: translateY(-.5rem) rotate(1deg);
+    }
+    
+	100% {
+		transform: translate(0) rotate(-.5deg);
+	}
+}
